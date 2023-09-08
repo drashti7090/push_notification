@@ -89,7 +89,7 @@ class AppNotificationHandler {
       description: "high_importance_channel", // description
       importance: Importance.high,
       playSound: true,
-      sound: RawResourceAndroidNotificationSound('apple_apple_iphone_60164')
+      // sound: RawResourceAndroidNotificationSound('apple_apple_iphone_60164')
       );
 
   ///get fcm token
@@ -168,8 +168,8 @@ class AppNotificationHandler {
           // ],
           // ledOnMs: 1000,
           // ledOffMs: 500,
-          sound:
-              RawResourceAndroidNotificationSound('apple_apple_iphone_60164'),
+          // sound:
+          //     RawResourceAndroidNotificationSound('apple_apple_iphone_60164'),
         ),
       ),
     );

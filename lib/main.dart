@@ -55,8 +55,6 @@ class _MyHomePageState extends State<MyHomePage> {
   getPermission() async {
     await [
       Permission.notification,
-      Permission.audio,
-      Permission.bluetooth
     ].request();
   }
 
